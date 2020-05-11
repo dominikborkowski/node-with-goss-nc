@@ -1,0 +1,8 @@
+version: '3'
+services:
+  node-with-goss-nc:
+    container_name: 'node-with-goss-nc'
+    build:
+      context: ./
+    restart: unless-stopped
+
